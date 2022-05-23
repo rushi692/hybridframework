@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage 
 {
-WebDriver ldriver;
+    WebDriver ldriver;
 	
 	public LoginPage(WebDriver rdriver)
 	{
@@ -17,11 +17,11 @@ WebDriver ldriver;
 		PageFactory.initElements(rdriver, this);
 	}
 	
-	@FindBy(className="header-icon-link user-profile-icon")
+	@FindBy(xpath="//*[@id=\'header\']/div[1]/div/section[3]/ul/li[2]/span/svg")
 	@CacheLookup
 	WebElement loginhover;
 	
-	@FindBy(xpath="//*[@id=\'header\']/div[1]/div/section[3]/ul/li[1]/a/span/svg/path")
+	@FindBy(xpath="//*[@id=\'header\']/div[1]/div/section[3]/ul/li[2]")
 	@CacheLookup
 	WebElement loginclk;
 	
@@ -35,6 +35,6 @@ WebDriver ldriver;
 	public void loginClk()
 	{
 		loginclk.click();
-	}
-
+	}	
+	
 }

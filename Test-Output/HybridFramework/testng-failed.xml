@@ -7,13 +7,13 @@
   <test thread-count="5" name="HomePage Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.mindtree.TestCases.TC_LoginPage">
+      <class name="com.mindtree.TestCases.TC_TVUnits">
         <methods>
           <include name="tearDown"/>
-          <include name="loginpage"/>
           <include name="setup"/>
+          <include name="tvUnits"/>
         </methods>
-      </class> <!-- com.mindtree.TestCases.TC_LoginPage -->
+      </class> <!-- com.mindtree.TestCases.TC_TVUnits -->
     </classes>
   </test> <!-- HomePage Test(failed) -->
 </suite> <!-- Failed suite [HybridFramework] -->

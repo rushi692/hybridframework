@@ -10,8 +10,16 @@
     <test name="HomePage Test">
 		<parameter name="browser" value="chrome" />
 		<classes>
-		   <class name="com.mindtree.TestCases.TC_HomePage" /> 
-		   <!-- <class name="com.mindtree.TestCases.TC_LoginPage" /> --> 
+		    <class name="com.mindtree.TestCases.TC_HomePage" />  
+		    <class name="com.mindtree.TestCases.TC_LoginPage" /> 
+   		    <class name="com.mindtree.TestCases.TC_SelectMattresses" /> 
+            <class name="com.mindtree.TestCases.TC_GiftCard" /> 
+            <class name="com.mindtree.TestCases.TC_GoStores" />  
+            <class name="com.mindtree.TestCases.TC_TVUnits" /> 
+            <class name="com.mindtree.TestCases.TC_SelectForCouples" />  
+            <class name="com.mindtree.TestCases.TC_AboutUs" /> 
+            <class name="com.mindtree.TestCases.TC_FeesAndPayment" /> 
+            <class name="com.mindtree.TestCases.TC_ViewCustomerStories" />  
 		</classes>
 	</test>
 

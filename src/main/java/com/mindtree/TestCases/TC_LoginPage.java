@@ -13,10 +13,11 @@ public class TC_LoginPage extends BaseClass
 		log.info("Home page open successfully");
 		
 		lp.loginHover();
-		log.info("Login window open successfully");
+		log.info("Login window hover successfully");
 		
 		lp.loginClk();
 		log.info("click on login btn successfully");
+		
 	}
 	
 
